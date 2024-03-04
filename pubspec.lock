@@ -107,6 +107,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.10.0"
+  onscreen_num_keyboard:
+    dependency: "direct dev"
+    description:
+      name: onscreen_num_keyboard
+      sha256: "6d80b7dd0f4ac1380074bbf769f43d73220d61987770fa83c1b5a34f455c5ed4"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.4"
   path:
     dependency: transitive
     description:
@@ -186,3 +194,4 @@ packages:
     version: "0.3.0"
 sdks:
   dart: ">=3.2.6 <4.0.0"
+  flutter: ">=1.17.0"

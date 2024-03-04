@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'dart:developer';
 
+import 'package:advanced_door/keyboard.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -150,6 +151,15 @@ class _MyHomePageState extends State<MyHomePage>{
               )
             else
               const CircularProgressIndicator(),
+            ElevatedButton(
+              child: const Text('Unlock'),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const MyKeyboardPage()),
+                );
+              },
+            ),
           ],
         ),
       ),
